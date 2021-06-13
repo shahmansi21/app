@@ -1,0 +1,100 @@
+body {
+    background-color: #fff;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    background-color: #8a2a2a;
+    padding: 2em;
+    width: 30%;
+    border-radius: 1em;
+}
+form input {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 0.8em 1em;
+    border: 0px;
+    margin: 0px auto;
+    display: block;
+    font-size: 1.1em;
+}
+form h1 {
+    margin-bottom: 0em;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #fff;
+}
+h1.title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 2em;
+    margin-top: 0;
+    color: #fff;
+    font-weight: 600;
+}
+.btn-style {
+    padding: 0.8em 2em;
+    font-size: 1em;
+    margin: 2em auto 0em;
+    display: block;
+    background-color: #fff;
+    border: 2px solid #fff;
+    color: #8a2a2a;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    transform: scale(1);
+    transition: 0.5s all ease-in-out;
+}
+.btn-style:hover {
+    padding: 0.8em 2em;
+    background-color: transparent;
+    color: #fff;
+    transform: scale(1.1);
+    transition: 0.5s all ease-in-out;
+}
+.header-menu {
+    margin-bottom: 4em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+button.logout-btn-style {
+    background-color: red;
+    color: #fff;
+    border: 2px solid red;
+    padding: 0.5em 1em;
+    font-weight: 700;
+    margin: 0em 1em;
+}
+.title-s {
+    align-self: flex-start;
+    flex: 60%;
+    padding: 0.4em 1em;
+    flex-grow: 0;
+}
+.card-title{
+    font-style: italic;
+}
+.header-menu h5{
+    flex: 30%;
+    text-align:right;
+}
+.loader{
+    position: fixed;
+    top: 40vh;
+    left: 40%;
+    transform: translateX(50%) translateY(50%);
+}
+@media only screen and (max-width:767px) {
+    body {
+        background-color: #fff;
+    }
+    form {
+        width: 100%;
+    }
+}
