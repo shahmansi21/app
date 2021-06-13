@@ -11,8 +11,7 @@ const Login = () => {
     const handleSubmit = (e) => {
 
         e.preventDefault();
-        console.log("Name",name);
-        console.log("Password",password);
+      
 
         let regex = new RegExp("[a-zA-Z ]+[a-zA-Z]$");
         var regexPass = new RegExp('[a-zA-Z]');

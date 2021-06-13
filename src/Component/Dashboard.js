@@ -35,21 +35,14 @@ const Dashboard = () => {
     useEffect(() => {
         if (data)
         {
-            let jokeArray1 = [];
-
-            setNewArray(data);
-
-            console.log("before",newArray);
-
+         
             data.map((jokeData => newArray.push({
                 "id" : jokeData.id,
                 "type" : jokeData.type,
                 "setup" : jokeData.setup,
                 "punchline":jokeData.punchline
             })));
-            console.log("Joke Array",jokeArray1);
-        //    setNewArray(newArray);
-            console.log("After",newArray);
+       
         }
         else if(error)
         {
